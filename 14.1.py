@@ -4,7 +4,7 @@ class Restaurant:
         self.cuisine_type = cuisine_type
         self.rating = rating
 
-    def describe_restaurant(self):  # ← новый метод
+    def describe_restaurant(self):
         print(f"Название: {self.restaurant_name}")
         print(f"Тип кухни: {self.cuisine_type}")
         print(f"Рейтинг: {self.rating}")
